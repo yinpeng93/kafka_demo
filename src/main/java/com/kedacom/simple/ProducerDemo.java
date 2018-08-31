@@ -13,6 +13,7 @@ import java.util.Properties;
  */
 public class ProducerDemo {
     public static void main(String[] args) {
+
         Properties properties = new Properties();
         //配置kafka集群地址
         properties.put("bootstrap.servers", "10.65.3.5:9092");

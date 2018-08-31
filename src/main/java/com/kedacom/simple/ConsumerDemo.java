@@ -45,12 +45,11 @@ public class ConsumerDemo {
 
             ConsumerRecords<String, String> records = kafkaConsumer.poll(100);
 
-//            System.out.println("1111");
             //手动提交offset
 //            kafkaConsumer.commitSync();
             for (ConsumerRecord<String, String> record : records) {
 //                try {
-////                    Thread.sleep(25000);
+//                    Thread.sleep(25000);
 //                } catch (InterruptedException e) {
 //                    e.printStackTrace();
 //                }
